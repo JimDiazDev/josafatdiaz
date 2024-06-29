@@ -1,0 +1,66 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: $fondo;
+
+    
+    @include pad {
+        height: 70vh;
+    }
+
+    @include desktop {
+        height: 80vh;
+    }
+
+    .cover__name {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+
+        .name {
+            color: $blanco;
+            font-size: 6rem;
+            font-weight: 900;
+
+            @include pad {
+                font-size: 9rem;
+            }
+
+            @include desktop {
+                font-size: 11rem;
+            }
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: $primario-400;
+            font-size: 6rem;
+            font-weight: 800;
+
+            @include pad {
+                font-size: 9rem;
+            }
+            
+            @include desktop {
+                font-size: 11rem;
+            }
+        }
+    }
+
+    .cover__description {
+        font-size: 1.2rem;
+        color: $texto;
+        font-family: 'Rubik', sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        @include pad {
+            font-size: 1.5rem;
+        }
+    }
+}

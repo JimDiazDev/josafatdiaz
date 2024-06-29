@@ -1,0 +1,65 @@
+.start {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    @include pad {
+        flex-direction: row-reverse;
+    }
+}
+
+    
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+    object-fit: cover;
+
+    @include pad {
+        width: 50%;
+    }
+
+    @include desktop {
+        width: 35%;
+        height: 50rem;
+    }
+
+    @include desktop-l {
+        width: 70%;
+        height: 55rem;
+    }
+}
+
+
+.start__text {
+    width: 100%;
+
+    @include desktop {
+        padding-right: 5rem;
+    }
+
+    h3 {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+
+        @include desktop {
+            font-size: 7rem;
+        }
+    }
+
+    p {
+        margin-bottom: 2rem;
+        
+        @include desktop {
+            font-size: 2.2rem;
+        }
+    }
+
+    .color {
+        font-size: 2rem;
+        color: $primario-300;
+        @include desktop {
+            font-size: 2.2rem;
+        }
+    }
+}

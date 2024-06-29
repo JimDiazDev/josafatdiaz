@@ -1,0 +1,56 @@
+.services {
+    h2 {
+        text-align: center;
+        font-family: $secondfont;
+        margin-bottom: 7rem;
+    }
+}
+
+.services__tarjets {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    @include desktop {
+        flex-direction: row;
+        gap: 4rem;
+    }
+}
+
+.services__box {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background-color: $tarjeta;
+
+    @include pad {
+        padding: 4rem 5rem 4rem 2.5rem;
+    }
+
+    .services__number {
+        font-size: 7rem;
+        color: #f3f3f3;
+        font-weight: 700;
+        font-family: $secondfont;
+
+        @include pad {
+            font-size: 9rem;
+        }
+    }
+
+    h3 {
+        font-size: 3rem;
+        margin: 1rem 0 2rem;
+        color: $primario-200;
+
+        @include pad {
+            font-size: 4rem;
+        }
+    }
+
+    .services__text {
+        font-family: $secondfont;
+        line-height: 3rem;
+    }
+
+}

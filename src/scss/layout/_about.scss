@@ -1,0 +1,44 @@
+.about-img {
+    width: 90%;
+    height: 60vh;
+    background-image: url('../../img/Portada.jpg');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 2rem;
+
+    @include desktop {
+        width: 50%;
+        height: 70vh;
+    }
+}
+
+/* .about {
+    display: flex;
+    flex-direction: column;
+
+    @include pad {
+        margin-top: 5rem;
+        flex-direction: row;
+        gap: 4rem;
+    }
+
+    h2 {
+        margin-bottom: 2.5rem;
+        font-size: 4rem;
+
+        @include pad {
+            width: 50%;
+            font-size: 9rem;
+        }
+    }
+
+    p {
+        color: $texto;
+        font-family: $secondfont;
+        
+        @include pad {
+            width: 50%;
+            font-size: 2.5rem;
+        }
+    }
+} */

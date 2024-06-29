@@ -1,0 +1,17 @@
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/globales';
+@import 'base/tipografia';
+
+/* UX/UI */
+@import 'layout/header';
+@import 'layout/portrate';
+@import 'layout/about';
+@import 'layout/servicios';
+@import 'layout/start';
+@import 'layout/plan';
+@import 'layout/cuestions';
+@import 'layout/contact';
+@import 'layout/footer';
+

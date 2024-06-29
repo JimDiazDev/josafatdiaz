@@ -1,0 +1,21 @@
+/** Media Queries **/
+@mixin phone {
+    @media (min-width: $phone) {
+        @content;
+    }
+}
+@mixin pad {
+    @media (min-width: $pad) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}
+@mixin desktop-l {
+    @media (min-width: $desktop-l) {
+        @content;
+    }
+}
