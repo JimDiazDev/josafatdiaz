@@ -37,7 +37,7 @@
                     <a href="/"><img src="./img/logo.png" alt="logo"></a>
                 </div>
                 <div class="nav__btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+                    <svg xmlns="https://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
                 </div>
                 <div class="nav__background"></div>
                 <nav class="nav__elements">

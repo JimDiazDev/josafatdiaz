@@ -132,21 +132,9 @@
         <img src="./img/contacto.jpg" alt="Imagen de Contacto">
         <div class="contact__form">
             <h3>Cuénteme de su sitio</h3>
-            <form action="mailto:josafatdiazcontact@gmail.com?subject=Hablemos%20de%20mi%20sitio" method="post" enctype="text/plain">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="Nombre" required>
-
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="Email" required>
-
-                <label for="plan">Plan:</label>
-                <input type="text" id="plan" name="Plan" required>
-
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="Mensaje" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
+            <p>¿Necesita un sitio web atractivo y bien estructurado que pueda estructurar y mantener usted mismo?</p>
+            <p>Pongase en contacto conmigo:</p>
+            <p>josafatdiazcontact@gmail.com</p>
         </div>
     </section>
 
